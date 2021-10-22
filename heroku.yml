@@ -1,5 +1,5 @@
 build:
   docker:
-    worker: pip3 install requirements.txt
+    worker: Dockerfile
 run:
   worker: bash start.sh
