@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM breakdowns/mega-sdk-python:latest
 
 RUN pip3 install requirements.txt
 
